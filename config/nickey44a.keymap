@@ -3,12 +3,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
     quick-tap-ms = <180>;
 };
 
 &lt {
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
     quick-tap-ms = <180>;
 };
 
@@ -34,7 +34,7 @@
 
             #binding-cells = <2>;
 
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
             tapping-term-ms = <180>;
         };
     };
